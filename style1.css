@@ -1106,23 +1106,8 @@ h4 {
         justify-content: flex-start;
     }
 }
-   .faq-question {
-      cursor: pointer;
-      font-weight: bold;
-      padding: 10px;
-      background: #f8f9fa;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      margin-bottom: 5px;
-    }
-    .faq-question i {
-      float: right;
-      transition: transform 0.3s ease;
-    }
-    .faq-question[aria-expanded="true"] i {
-      transform: rotate(180deg);
-    }
-     /* Full width accordion item */
+  
+    /* Ensure each accordion item is full width */
     .accordion-item {
       width: 100%;
       margin-bottom: 10px;
@@ -1130,7 +1115,7 @@ h4 {
       border-radius: 6px;
     }
 
-    /* Question styling */
+    /* Accordion header styling */
     .accordion-header {
       cursor: pointer;
       font-weight: bold;
@@ -1142,7 +1127,7 @@ h4 {
       margin: 0;
     }
 
-    /* Chevron rotation */
+    /* Chevron rotation animation */
     .accordion-header[aria-expanded="true"] i {
       transform: rotate(180deg);
       transition: transform 0.3s ease;
