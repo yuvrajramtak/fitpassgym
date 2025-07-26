@@ -681,6 +681,7 @@ h4 {
     flex: 1;
     min-width: 300px;
     max-width: 500px;
+    font-size: 25px;
 }
 
 .left h1 {
