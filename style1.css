@@ -306,7 +306,9 @@ body {
     text-decoration: underline;
     transition: color 0.2s;
 }
-
+.text p{
+    padding-left: 129px;
+}
 .text p a:hover,
 .text p a:focus {
     color: #ff0512;
