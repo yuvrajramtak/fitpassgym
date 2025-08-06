@@ -294,6 +294,7 @@ body {
     .text p{
         margin-top: 0;
         margin-bottom: 1rem;
+        margin-left: 50px;
     }
 }
 .text p{
@@ -857,6 +858,8 @@ h4 {
 .fvb {
     color: white;
     background-color: #000000;
+    margin-left: 15px;
+    padding-left: 20px;
 }
 
 .fvb p {
