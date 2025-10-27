@@ -4,6 +4,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow: auto;
+
 }
 
 body {
@@ -11,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background: #f5f6fa;
+    overflow: auto;
 }
 
 /* Navbar Styles */
